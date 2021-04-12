@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(245, 107, 16);
+}
+
+h1{
+    color: rgb(226, 43, 43);
+    margin-left:50
+}
+
+
+
+.header  {
+    background-color: rgb(115, 255, 0);
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+.menu{
+background-color: "#1200FF";
+margin-right: 50
+
+}
+
+p,h2{
+    text-align: center;
+}
+
+.Games{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    background-color: rgb(255, 0, 0);
+
+}
+
+.items{
+    background-color: rgb(0, 153, 255);
+    position:relative;
+    
+}
+
+.items p{ 
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity: 0;
+
+}
+
+.items:hover p{
+    opacity: 1;
+}
+
+.items:hover img{
+    opacity: 0.2;
+}
+
+.Socials{
+
+    background-color: rgb(255, 0, 234);
+    display:flex;
+    justify-content:flex-end;
+}
+
+a:link{
+    color: rgb(0, 255, 21);
+}
+
+a:visited{
+    color: rgb(134, 98, 192);
+}
+
+.menu a{
+    margin-left:30
+}
